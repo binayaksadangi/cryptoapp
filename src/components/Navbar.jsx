@@ -17,11 +17,14 @@ const Navbar = () => {
                 <Menu.Item icon={<HomeOutlined/>}> 
                     <Link to='/'>Home</Link>
                 </Menu.Item>
-                <Menu.Item icon={<HomeOutlined/>}> 
-                    <Link to='/'>Home</Link>
+                <Menu.Item icon={<FundOutlined/>}> 
+                    <Link to='/cryptocurrrencies'>Cryptocurrencies</Link>
                 </Menu.Item>
-                <Menu.Item icon={<HomeOutlined/>}> 
-                    <Link to='/'>Home</Link>
+                <Menu.Item icon={<MoneyCollectOutlined/>}> 
+                    <Link to='/exchanges'>Exchanges</Link>
+                </Menu.Item>
+                <Menu.Item icon={<BulbOutlined/>}> 
+                    <Link to='/news'>News</Link>
                 </Menu.Item>
             </Menu>
         </div>
