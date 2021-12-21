@@ -7,7 +7,7 @@ import {Navbar,HomePage,News,Exchanges,Cryptocurrencies,CryptoDetails} from './c
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className='navbar'>
         <Navbar/>
       </div>
